@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal{
+    position: fixed;
+    width: 320px;
+    height: 200px;
+    top: 30%;
+    left: 35%;
+    padding: 10px;
+    box-shadow: 3px 7px 18px #888888;
+}
+
+p{
+    font-size: 20px;
+    padding: 10px 12px 25px 12px;
+    margin:0;
+}
+
+.x{
+    position: absolute;
+    right: 13px;
+    top:11px;
+    padding:10px;
+    margin:0;
+    background-color:white;
+ }
+
+input{
+    height: 30px;
+    width: 295px;
+    margin: 10px 5px 25px 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+label > p {
+    font-size:17px;
+    padding: 15px 20px 2px 12px;
+    margin:0;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color:gray;
+   
+}
+
+button {
+    box-sizing: border-box;
+    border-style:none ;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.buttons{
+    position: absolute;
+    right: 25px;
+}
+.submit{
+    background-color:rgba(76, 58, 177, 0.856);
+    color: white;
+}
+
+.close{
+    background-color:white;
+    color: rgba(76, 58, 177, 0.856);
+    
+}
+ 
